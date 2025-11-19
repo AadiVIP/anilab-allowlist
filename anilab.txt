@@ -1,30 +1,31 @@
-# ============================================
-# AniLab Allowlist Hosts File
-# DO NOT BLOCK THESE DOMAINS
-# ============================================
+# AniLab allowlist (forces domains to resolve normally)
 
-# AniLab detection domains – must be allowed
-# (Listed for reference; DO NOT map them to 0.0.0.0)
+0.0.0.0 localhost
+127.0.0.1 localhost
 
-# fbappi.co
-# inappi.co
-# app-measurement.com
-# app-measurement.net
-# google-analytics.com
+# Allowed domains:
+# Using 0.0.0.0 *does NOT* allow.
+# Instead, we use the special syntax below:
 
-# Facebook analytics
-# graph.facebook.com
-# web.facebook.com
+# Allow these domains
+# AdAway supports "unblock" via "# AdAway allow" prefix
+# and leaving them without blocking IP.
 
-# Firebase services
-# firebaseinstallations.googleapis.com
-# firebaselogging-pa.googleapis.com
-# firebaseremoteconfigrealtime.googleapis.com
+# AdAway allow: fbappi.co
+fbappi.co
 
-# ============================================
-# No blocking entries are included.
-# This hosts file ONLY ensures these domains
-# stay unblocked in blockers like AdAway.
-# ============================================
+# AdAway allow: inappi.co
+inappi.co
 
-# Optional: You can add other blocks below if you want.
+# AdAway allow: app-measurement.com
+app-measurement.com
+
+app-measurement.net
+google-analytics.com
+
+graph.facebook.com
+web.facebook.com
+
+firebaseinstallations.googleapis.com
+firebaselogging-pa.googleapis.com
+firebaseremoteconfigrealtime.googleapis.com
