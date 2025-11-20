@@ -11,12 +11,6 @@
 # AdAway supports "unblock" via "# AdAway allow" prefix
 # and leaving them without blocking IP.
 
-# AdAway allow: fbappi.co
-fbappi.co
-
-# AdAway allow: inappi.co
-inappi.co
-
 # AdAway allow: app-measurement.com
 app-measurement.com
 
